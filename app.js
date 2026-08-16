@@ -1,6 +1,6 @@
 /**
  * Chess Game Application Logic
- * Author: S. Vignesh (Developer)
+ * Author: karthi06vsbian (Developer)
  * Tier 1 Beginner Project
  */
 

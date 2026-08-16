@@ -10,8 +10,8 @@ An interactive, 2-player browser-based Chess engine featuring move validation, p
 
 ## 👨‍💻 Author Details
 
-- **Developer**: S. Vignesh
-- **GitHub**: [github.com/developer](https://github.com/)
+- **Developer**: karthi06vsbian
+- **GitHub**: [github.com/karthi06vsbian](https://github.com/karthi06vsbian)
 - **Category**: Web Application / Game Development
 
 ---
