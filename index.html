@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2-Player Chess Engine - S. Vignesh Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="app-container">
+    <header class="app-header">
+      <h1>👑 Chess Game Engine</h1>
+      <p class="subtitle">Built by <strong>S. Vignesh</strong> | Tier 1 Beginner Project</p>
+    </header>
+
+    <main class="game-wrapper">
+      <div class="sidebar left-panel">
+        <div class="card player-card active" id="player-black">
+          <div class="player-avatar">🏿</div>
+          <div class="player-info">
+            <h3>Black Player</h3>
+            <span class="status" id="black-status">Waiting...</span>
+          </div>
+        </div>
+
+        <div class="card captured-card">
+          <h4>Captured Pieces</h4>
+          <div class="captured-box" id="captured-white"></div>
+        </div>
+
+        <div class="card move-history-card">
+          <h4>Move History</h4>
+          <div class="history-list" id="move-history"></div>
+        </div>
+      </div>
+
+      <div class="board-container">
+        <div class="turn-indicator" id="turn-indicator">Current Turn: <span class="white-text">White ⚪</span></div>
+        <div class="chess-board" id="chess-board"></div>
+        <div class="game-controls">
+          <button id="btn-reset" class="btn btn-primary">🔄 New Game</button>
+          <button id="btn-undo" class="btn btn-secondary">↩️ Undo Move</button>
+        </div>
+      </div>
+
+      <div class="sidebar right-panel">
+        <div class="card player-card active" id="player-white">
+          <div class="player-avatar">🏻</div>
+          <div class="player-info">
+            <h3>White Player</h3>
+            <span class="status" id="white-status">Active Turn</span>
+          </div>
+        </div>
+
+        <div class="card captured-card">
+          <h4>Captured Pieces</h4>
+          <div class="captured-box" id="captured-black"></div>
+        </div>
+
+        <div class="card info-card">
+          <h4>Game Rules & Controls</h4>
+          <ul>
+            <li>Click piece to select valid moves</li>
+            <li>Green dots show legal target squares</li>
+            <li>Red highlight indicates captured piece</li>
+          </ul>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
