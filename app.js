@@ -6,7 +6,7 @@
 
 const PIECES = {
   wP: '♙', wR: '♖', wN: '♘', wB: '♗', wQ: '♕', wK: '♔',
-  bP: '♟', bR: '♜', bN: '➞', bB: '♝', bQ: '♛', bK: '♚'
+  bP: '♟', bR: '♜', bN: '♞', bB: '♝', bQ: '♛', bK: '♚'
 };
 
 const INITIAL_BOARD = [
