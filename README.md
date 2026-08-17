@@ -1,7 +1,7 @@
 # 👑 Chess Game App (Tier 1)
 
 [![Tier: Beginner](https://img.shields.io/badge/Tier-1%20Beginner-green.svg)](#)
-[![Developer](https://img.shields.io/badge/Author-S.%20Vignesh-blue.svg)](#)
+[![Developer](https://img.shields.io/badge/Author-karthi06vsbian-blue.svg)](#)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 An interactive, 2-player browser-based Chess engine featuring move validation, piece capture tracking, interactive move history, and turn indicators.
